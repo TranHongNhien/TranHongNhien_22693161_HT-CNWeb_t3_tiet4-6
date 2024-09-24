@@ -1,0 +1,128 @@
+* {
+  padding: 0px;
+  margin: 0px auto;
+}
+.wrapper {
+  height: 640px;
+  width: 900px;
+  background-color: #66b7ef;
+}
+header {
+  height: 10%;
+}
+header ul {
+  margin-left: 15px;
+}
+header ul li {
+  display: inline-table;
+  padding: 10px;
+}
+header ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+header ul li:hover {
+  background-color: aqua;
+}
+hr {
+  border-top: dashed;
+  border-bottom: none;
+  border-color: white;
+}
+.content {
+  height: 80%;
+}
+.content section {
+  width: 50%;
+  float: left;
+  margin: 10px;
+}
+.content section h1 {
+  color: white;
+}
+.content section p {
+  padding-top: 30px;
+  text-align: justify;
+  color: white;
+}
+.content section form {
+  margin-left: 50px;
+}
+.content section form input {
+  width: 200px;
+}
+.content section form div label {
+  position: relative;
+  left: 0px;
+  color: white;
+}
+.content section form div {
+  position: relative;
+  margin-top: 15px;
+}
+.content section form div input {
+  position: absolute;
+  right: 0px;
+}
+#title {
+  position: relative;
+}
+#title select {
+  border-radius: 10px;
+  width: 55px;
+  position: absolute;
+  right: 150px;
+}
+#spec {
+  position: relative;
+}
+#spec label {
+  display: inline-block;
+  width: 180px;
+}
+#spec textarea {
+  position: absolute;
+  right: 0px;
+  width: 200px;
+  height: 80px;
+}
+#click {
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+#click a {
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 15px;
+  background-color: #d0d9e3;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: dashed;
+}
+aside {
+  height: 80%;
+  width: 45%;
+  float: right;
+}
+aside img {
+  height: 250px;
+  margin-top: 15px;
+}
+aside h1 {
+  margin: 20px 0px 10px 20px;
+  color: blue;
+}
+aside h4 {
+  margin-left: 30px;
+  color: blue;
+}
+footer {
+  height: 10%;
+}
+footer p {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}

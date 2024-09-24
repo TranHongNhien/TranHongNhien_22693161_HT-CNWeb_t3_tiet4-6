@@ -1,0 +1,174 @@
+* {
+  padding: 0px;
+  margin: 0px auto;
+}
+.wrapper {
+  height: 640px;
+  width: 1000px;
+}
+header {
+  background-color: #2e4d70;
+  height: 15%;
+  position: relative;
+}
+header img {
+  top: 8px;
+  left: 15px;
+  position: relative;
+}
+header h1 {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  color: #ecfafb;
+}
+header h4 {
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  color: #ecfafb;
+}
+nav {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+nav li {
+  display: inline-table;
+  background-color: #3c71b1;
+  padding: 15px;
+  margin-right: 5px;
+}
+nav li a {
+  color: #ecfafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav li:hover {
+  background-color: #70dee6;
+}
+header form {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+header form input {
+  background-color: #1e324f;
+}
+header form input::placeholder {
+  color: #ecfafb;
+}
+header form button {
+  background-color: #1e324f;
+  color: #ecfafb;
+  margin-left: 15px;
+}
+.content {
+  height: 80%;
+  width: auto;
+}
+footer {
+  background-color: #2e4d70;
+  height: 5%;
+  width: auto;
+}
+section {
+  position: relative;
+  float: left;
+  width: 65%;
+  padding-top: 40px;
+  padding-left: 15px;
+}
+section h2 {
+  padding-bottom: 20px;
+}
+.section-left {
+  position: absolute;
+  margin-top: 15px;
+  width: 63%;
+}
+.section-left p {
+  text-align: justify;
+  color: #da1515;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px#7bdea7;
+}
+.section-left form {
+  display: flex;
+  justify-content: start;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.section-left form input {
+  width: 200px;
+  height: 25px;
+  margin-top: 20px;
+}
+.section-left form textarea {
+  width: 420px;
+  height: 100px;
+  margin-top: 20px;
+}
+#la-mess {
+  bottom: 105px;
+}
+
+.section-left form div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.section-left form label {
+  position: absolute;
+  bottom: 30px;
+}
+.buttons {
+  margin-top: 15px;
+}
+.buttons input {
+  padding: 5px 10px 5px 10px;
+  margin-right: 10px;
+}
+.section-right {
+  position: absolute;
+  right: 0px;
+  width: 37%;
+}
+.section-right h2,
+.section-right hr,
+.section-right div {
+  margin: 15px 0px 15px 25px;
+}
+aside {
+  background-color: #f8f7fb;
+  position: relative;
+  float: right;
+  width: 32%;
+  margin-top: 75px;
+}
+aside hr {
+  margin: 5px 10px 10px 5px;
+}
+aside h2 {
+  padding: 10px;
+}
+aside img {
+  padding: 20px 15px 25px 15px;
+}
+aside p {
+  text-align: justify;
+  padding: 20px 15px 25px 15px;
+}
+aside a {
+  text-decoration: none;
+  float: right;
+  font-weight: bold;
+  color: #29507b;
+}
+
+footer {
+  color: #ecfafb;
+  font-weight: bold;
+  align-content: center;
+}
