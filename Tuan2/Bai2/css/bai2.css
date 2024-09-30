@@ -1,0 +1,100 @@
+#body {
+  height: 900px;
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#container {
+  border: 0;
+  box-shadow: 5px 5px 5px 5px gainsboro;
+  height: 850px;
+  width: 950px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+header {
+  background-image: url(background.png);
+  height: 100px;
+  width: 900px;
+  margin: auto;
+  color: white;
+}
+nav {
+  color: white;
+  height: 30px;
+  width: 900px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: gray;
+  text-align: left;
+  align-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px 5px 15px;
+}
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+section {
+  height: 560px;
+  width: 600px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+}
+aside {
+  height: 550px;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  float: right;
+  margin-right: 2%;
+  border-left: 1px solid beige;
+}
+footer {
+  color: white;
+
+  height: 40px;
+  width: 100%;
+  margin: auto;
+  background-color: gray;
+  clear: both;
+}
+article {
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  height: 240px;
+}
+#i1 {
+  font-size: 18px;
+
+  margin-top: 15px;
+  width: 95%;
+  height: 250px;
+}
+#i2 {
+  height: 200px;
+  width: 321px;
+  border: 1px solid gainsboro;
+  float: left;
+  margin-right: 10px;
+}
+.a {
+  padding-top: 5px;
+}
